@@ -1,0 +1,13 @@
+
+CREATE DATABASE busmanagement;
+CREATE TABLE Businfo(busNumber varchar(25), operatorName varchar(25), source varchar(25), destination varchar(25), ticket int, fare int);
+insert into Businfo(busNumber,operatorName,source,destination,ticket,fare) values('RJ002','Sundip Kumar','Udaipur','Jalandhar',50,900);
+insert into Businfo(busNumber,operatorName,source,destination,ticket,fare) values('WB003','Dipanshu Diwaker','Kolkala','Jalandhar',60,750);
+insert into Businfo(busNumber,operatorName,source,destination,ticket,fare) values('RJ006','Sunny Thota','Jhalawar','Kota',40,200);
+insert into Businfo(busNumber,operatorName,source,destination,ticket,fare) values('RJ112','Suraj Gautam','Jodhpur','Bhopal',20,500);
+insert into Businfo(busNumber,operatorName,source,destination,ticket,fare) values('WB591','Rajveer Ranjan','Nehati','Kota',10,3000);
+insert into Businfo(busNumber,operatorName,source,destination,ticket,fare) values('Mh686','Rajiv singh','Mumbai','Banglore',44,2000);
+insert into Businfo(busNumber,operatorName,source,destination,ticket,fare) values('MP655','Sumit singh','Indore','Mumbai',12,2500);
+insert into Businfo(busNumber,operatorName,source,destination,ticket,fare) values('HP001','Parv Jain','Kota','Jaipur',5,800);
+insert into Businfo(busNumber,operatorName,source,destination,ticket,fare) values('WB002','Amit Yadav','Kolkata','Pune',29,1600);
+select * from Businfo;
